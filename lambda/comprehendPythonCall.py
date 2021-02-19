@@ -23,7 +23,7 @@ def lambda_handler(event, context):
         'InputFormat': 'ONE_DOC_PER_LINE'
     },
     OutputDataConfig={
-        'S3Uri': 's3://aws-caibc-comprehen-training-tokyo/result/',
+        'S3Uri': 's3://aws-abcd-comprehen-training-tokyo/result/',
     },
     DataAccessRoleArn='arn:aws:iam::accountid:role/service-role/AmazonComprehendServiceRole-comprehens3',
     )
